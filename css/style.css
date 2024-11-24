@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+#script-js{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic,oblique;
+    margin-left: 0.5%;
+}
+
+#first-img{
+    border-radius: 40px;
+    width: 70%;
+    height: 30%;
+}
+#logo{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.topo-you{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#YouLearn{
+    text-align: left;
+    font-size: 1.7rem;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 45px;
+    font-family: Marker Felt, fantasy;
+    font-style: oblique	
+}
+
+p{
+    font-family: Gill Sans, sans-serif;
+}
+
+header{
+    background: linear-gradient(to top,#f4f4f4, #000);
+    color: #f4f4f4;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+footer{
+    background: linear-gradient(to bottom, #8d8d8d, #000);
+    color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+
+html{
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+h1{
+    font-family: Gill Sans, sans-serif;
+    font-size: 2.3rem; 
+    text-align: center;
+    text-shadow: 1px #000;
+    color: #00008B;
+}
+h2{
+    font-size: 1.9rem;
+}
+h3{
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.8rem;
+    color: #00008B;
+    text-shadow: 1px #000;}
+h5{
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.5rem;
+    color: #00008B;
+    text-align: center;
+    text-shadow: 1px #000;
+}
+figcaption{
+    font-size: 1rem;
+}
+
+
+.conteudo{
+    font-size: 1.6rem;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin:0 auto ;
+    text-align: justify;
+    max-width: 80%;
+
+}
+
+#grid-conteudo{
+    background-color: #f4f4f4;
+}
+
+.grid{
+    display: grid;
+    background-color: #f4f4f4;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.grid div{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2px;
+}
+
+figure{
+    text-align: center;
+}
+
+.imagem-site{
+    border-radius: 40px;
+    width: 90%;
+    height: 30%;
+
+}
+.imagem-site:hover{
+    border-radius: 40px;
+    width: 90%;
+    height: 30%;
+    opacity: 0.7;
+}
+
+nav{
+    text-align: right;
+    font-size: 1.7rem;
+    word-spacing: 13px;
+    margin-right: 3%;
+    padding-bottom: 2px;
+}
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FF8C00;
+}
+
+@media(min-width:280px) and (max-width:450px){
+    .imagem-site{
+        border-radius: 40px;
+        width: 90%;
+        height: 30%;
+
+    }
+}
